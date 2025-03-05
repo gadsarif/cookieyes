@@ -55,7 +55,7 @@ button.cky-btn.cky-btn-accept {
 @media only screen and (max-width: 767px) { 
 .cky-consent-container.cky-box-bottom-left {
     left: 5%;
-right:5%
+right:5%;
 bottom:2;
 }
 .cky-consent-container {
