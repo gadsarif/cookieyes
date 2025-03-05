@@ -15,7 +15,7 @@
 
 .cky-notice-btn-wrapper button {
     border-radius: 10px;
-    padding: 5px 30px;
+    padding: 5px 35px;
     font-weight: bold;
     background: black !important;
     border-color: black !important;
@@ -34,12 +34,11 @@
     padding: 10px 10px;
 }
 button.cky-btn.cky-btn-accept {
-    background: url(https://cdn.shopify.com/s/files/1/0801/0635/7083/files/Button-bg.png?v=1741200477) no-repeat;
+    background: url(https://cdn.shopify.com/s/files/1/0801/0635/7083/files/Button-bg.png?v=1741200477) no-repeat !important;
     text-align: center;
-    background-size: cover;
-    width: 40%; /* we can change this */ 
+    background-size: contain !important;
     border: none !important;
-    }
+}
 
 
 /* Tablet Layout: 768px. */
