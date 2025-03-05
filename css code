@@ -20,14 +20,15 @@
     background: black !important;
     border-color: black !important;
 }
-.cky-consent-bar .cky-notice-des p {font-weight: 500;font-family: "proxima-nova" !important; line-height: 1;}
+.cky-consent-bar .cky-notice-des p {font-weight: 500;font-family: "proxima-nova" !important; line-height: 1; font-size: 17px}
 .cky-consent-container.cky-box-bottom-left {
     text-align: center;
-    left: 25%;
+    left: 20%;
+
 }
 .cky-consent-container {
    min-width: fit-content;
-    width: 50%;
+    width: 60%;
 }
 
 .cky-consent-container .cky-consent-bar {
@@ -56,7 +57,7 @@ button.cky-btn.cky-btn-accept {
 .cky-consent-container.cky-box-bottom-left {
     left: 5%;
 right:5%;
-bottom:2;
+bottom:8%;
 }
 .cky-consent-container {
     width: 90%;
