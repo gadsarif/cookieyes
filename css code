@@ -28,11 +28,18 @@
 .cky-consent-container {
    min-width: fit-content;
     width: 50%;
-   
 }
+
 .cky-consent-container .cky-consent-bar {
     padding: 10px 10px;
 }
+button.cky-btn.cky-btn-accept {
+    background: url(https://cdn.shopify.com/s/files/1/0801/0635/7083/files/Button-bg.png?v=1741200477) no-repeat;
+    text-align: center;
+    background-size: cover;
+    width: 40%; /* we can change this */ 
+    border: none !important;
+    }
 
 
 /* Tablet Layout: 768px. */
