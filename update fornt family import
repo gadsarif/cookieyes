@@ -1,0 +1,112 @@
+@font-face {
+  font-family: SF-pro;
+  src: url(https://cdn.shopify.com/s/files/1/0801/0635/7083/files/SF-Pro.woff2);
+}
+
+.cky-consent-bar {
+    border-radius: 20px !important;
+    text-align: center;
+}
+.cky-consent-container.cky-box-bottom-left {
+    text-align: center;
+    left: 0;
+}
+
+.cky-notice-btn-wrapper {
+    display: inline-block;
+    border-radius: 20px !important;
+    
+}
+.cky-notice-btn-wrapper {
+    margin-top: 0px !important;
+
+}
+.cky-notice-btn-wrapper button {
+    border-radius: 10px;
+    padding: 5px 35px;
+    font-weight: bold;
+    background: black !important;
+    border-color: black !important;
+ font-family: SF-pro !important;
+}
+.cky-consent-bar .cky-notice-des p {font-weight: 500;font-family: "proxima-nova" !important; line-height: 1.3; font-size: 16px}
+.cky-consent-container.cky-box-bottom-left {
+    text-align: center;
+    left: 20%;
+   right: 20%
+}
+.cky-consent-container {
+   min-width: fit-content;
+    width: 60%;
+}
+
+.cky-consent-container .cky-consent-bar {
+    padding: 10px 10px;
+}
+button.cky-btn.cky-btn-accept {
+    background: #fff !important;
+color: #000 !important;
+    text-align: center;
+    background-size: contain !important;
+    border: none !important;
+}
+/* large screen */
+@media only screen and (min-width: 2100px) {
+.cky-consent-container.cky-box-bottom-left {
+    text-align: center;
+    left: 33% !important;
+    right: 35%!important;
+}
+.cky-consent-container {
+    min-width: fit-content;
+    width: 33%;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.cky-consent-container {
+    width: 100%;
+   min-width: fit-content;
+} 
+.cky-consent-container.cky-box-bottom-left {left: 5%; right: 5%}
+    .cky-consent-container .cky-consent-bar {
+    width: 90%;
+}
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .cky-consent-container.cky-box-bottom-left {
+        left: 8%;
+        bottom: 8%;
+right: 8%
+    }
+.cky-notice-btn-wrapper button {
+   
+    font-weight: 500;
+}
+    .cky-consent-container {
+        width: 84%;
+margin-right: 90px !important
+    }
+
+    .cky-consent-bar .cky-notice-des p {
+        font-size: 13px;
+    }
+
+    /* Hide scrollbar for Safari */
+    .cky-consent-bar .cky-notice-des::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Additional Safari-specific adjustments if needed */
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        /* Safari-specific styles */
+        .cky-consent-container {
+            -webkit-backface-visibility: hidden; /* Fixes rendering issues in Safari */
+        }
+    }
+}
